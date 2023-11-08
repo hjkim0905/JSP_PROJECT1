@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -15,8 +16,8 @@
         <legend>개인정보</legend>
         <label for="inputName">이름: </label><input type="text" id="inputName" name="name" /><br /><br />
         <label>성별: </label>
-        <input type="radio" name="gender" id="inputGenderMale" /><label for="inputGenderMale">남 </label>
-        <input type="radio" name="gender" id="inputGenderFemale" /> <label for="inputGenderFemale">여 </label>
+        <input type="radio" name="gender" value="Male" id="inputGenderMale" /><label for="inputGenderMale">남 </label>
+        <input type="radio" name="gender" value="Female" id="inputGenderFemale" /> <label for="inputGenderFemale">여 </label>
         <br /><br />
         <label for="inputDate">생년월일: </label>
         <input type="date" id="inputDate" name="birthday" /><br /><br />
@@ -31,10 +32,10 @@
         </select>
         <label for="inputNum">전화번호: </label><input type="text" id="inputNum" name="phoneNumber"/><br /><br />
         <label>활용 가능 언어: </label>
-        <input type="checkbox" id="inputLangC" name="isCheck" value="1" /><label for="inputLangC">C </label>
-        <input type="checkbox" id="inputLangCPP" name="isCheck" value="1" /><label for="inputLangCPP">C++ </label>
-        <input type="checkbox" id="inputLangPython" name="isCheck" value="1" /><label for="inputLangPython">Python </label>
-        <input type="checkbox" id="inputLangJava" name="isCheck" value="1" /><label for="inputLangJava">Java </label> <br /><br />
+        <input type="checkbox" id="inputLangC" name="isCheck" value="C" /><label for="inputLangC">C </label>
+        <input type="checkbox" id="inputLangCPP" name="isCheck" value="CPP" /><label for="inputLangCPP">C++ </label>
+        <input type="checkbox" id="inputLangPython" name="isCheck" value="Python" /><label for="inputLangPython">Python </label>
+        <input type="checkbox" id="inputLangJava" name="isCheck" value="Java" /><label for="inputLangJava">Java </label> <br /><br />
         <label for="inputTextArea">자기소개 및 각오: </label><br />
         <textarea name="introduce" form="application" cols="40" rows="10" id="inputTextArea"></textarea><br />
         <div id="submitStyle">
