@@ -7,5 +7,6 @@
 <body>
 <h1><%= "실전프로젝트1 Project4 진행보고 By 22100233 김현중" %></h1>
 <br/>
+<a href="hello-servlet">진행보고</a>
 </body>
 </html>
