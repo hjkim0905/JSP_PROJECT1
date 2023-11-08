@@ -13,7 +13,7 @@ public class BoardVO {
     private String isCheckValues;
     private String introduce;
 
-    public int getSeq()_ { return seq; }
+    public int getSeq() { return seq; }
     public void setSeq(int seq) { this.seq = seq; }
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
